@@ -132,13 +132,13 @@ export const sources = [
   },
   {
     id: 'ncip-fpic',
-    title: 'NCIP Administrative Orders and Free and Prior Informed Consent guidance',
+    title: 'NCIP Administrative Order No. 1, Series of 2006: The Free and Prior Informed Consent (FPIC) Guidelines of 2006',
     author: 'National Commission on Indigenous Peoples',
-    date: 'Various',
+    date: '2006',
     category: 'Law and Regulation',
     annotation:
       'Explains institutional mechanisms for Free and Prior Informed Consent where FPIC requirements apply, rather than discussing Indigenous consultation only through news reporting.',
-    url: null,
+    url: 'https://ncip.gov.ph/wp-content/uploads/2020/09/ncip-ao-no-1-s-2006-fpic-guidelines.pdf',
   },
   {
     id: 'pd-1586',
