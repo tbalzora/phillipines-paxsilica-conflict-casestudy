@@ -61,7 +61,7 @@ export const accountabilityQuestion =
 
 export const openingFraming = [
   'Pax Silica is a U.S.-led economic-security initiative, not a neutral synonym for machine learning. Its official language links AI, semiconductors, energy, logistics, and critical minerals to allied supply-chain security. In April 2026, the Philippines joined the declaration and offered a proposed 4,000-acre Economic Security Zone in New Clark City for activities intended to support those supply chains.',
-  'A decolonial reading asks whether this arrangement builds Philippine sovereignty or reorganizes Philippine land, labor, minerals, water, energy, and public authority around priorities defined elsewhere. Machine learning is not inherently the harm. The danger appears when technological policy reproduces a colonial relationship: external agenda-setting, local extraction and risk, unequal control over knowledge and value, and consultation that begins only after consequential plans have already been announced.',
+  'For the communities whose land and lives this project would touch, the question is whether the arrangement builds Philippine sovereignty or reorganizes land, labor, minerals, water, energy, and public authority around priorities defined elsewhere. Machine learning is not inherently the harm. The danger is when technological policy repeats a colonial pattern: outsiders set the agenda, local people carry the extraction and the risk, control over knowledge and value stays unequal, and consultation begins only after consequential plans have already been announced.',
 ];
 
 export const learningObjectives = [

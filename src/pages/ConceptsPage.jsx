@@ -204,9 +204,9 @@ export default function ConceptsPage() {
             understood purely as a dispute over a piece of technology. The physical
             infrastructure is being shaped through an international and domestic
             governance network containing actors operating at very different scales
-            and with different types of authority. A decolonial reading asks whose
-            knowledge, land, labor, resources, and futures are being reorganized when
-            that network claims to speak for development.
+            and with different types of authority. When that network claims to speak
+            for development, it is worth asking whose knowledge, land, labor,
+            resources, and futures are being reorganized.
           </p>
           <p>
             This also explains why local consultation becomes theoretically important.
