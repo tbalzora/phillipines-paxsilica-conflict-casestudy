@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import Callout from '../components/Callout';
+import CasePath from '../components/CasePath';
 import { TextFigure } from '../components/Figure';
 import DiscussionQuestion from '../components/DiscussionQuestion';
 import ActorNetwork from '../components/ActorNetwork';
@@ -233,12 +234,8 @@ export default function ConceptsPage() {
             key={item.id}
             number={index + 1}
             question={item.question}
-          >
-            <p>
-              Draw on Williams and Gordon-Gibson, complex multilateralism, dated primary
-              documents, and the Senate hearing rather than settling the case prematurely.
-            </p>
-          </DiscussionQuestion>
+            guide={item.guide}
+          />
         ))}
       </section>
 
@@ -275,6 +272,11 @@ export default function ConceptsPage() {
           ))}
         </div>
       </section>
+
+      <CasePath
+        back={{ to: '/conflict', label: 'Back to Conflict & Voices' }}
+        next={{ to: '/', label: 'Return to the beginning of the case' }}
+      />
     </div>
   );
 }

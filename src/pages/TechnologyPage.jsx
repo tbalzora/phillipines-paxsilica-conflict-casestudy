@@ -1,4 +1,5 @@
 import Callout from '../components/Callout';
+import CasePath from '../components/CasePath';
 import DocumentCard from '../components/DocumentCard';
 import { TextFigure } from '../components/Figure';
 import PageHero from '../components/PageHero';
@@ -250,6 +251,11 @@ export default function TechnologyPage() {
           ))}
         </div>
       </section>
+
+      <CasePath
+        back={{ to: '/', label: 'Back to the beginning of the case' }}
+        next={{ to: '/conflict', label: 'Now go to Conflict & Voices' }}
+      />
     </div>
   );
 }

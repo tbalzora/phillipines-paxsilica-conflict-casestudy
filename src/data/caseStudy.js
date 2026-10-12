@@ -309,26 +309,36 @@ export const discussionQuestions = [
     id: 'q1',
     question:
       'Which ideas function as the software behind Pax Silica, and which institutions constitute its hardware?',
+    guide:
+      'Start with the words officials keep using: supply-chain security, investment, advanced industry. Those ideas are being offered as development itself. Then ask which offices turn that language into a marked site, and whether Aeta communities and the Capas government were in that decision or only heard about it afterward.',
   },
   {
     id: 'q2',
     question:
       'Does the number of institutions involved make development more participatory, or can it make accountability harder to locate?',
+    guide:
+      'It is easy to hear a long list of agencies and assume more people got a say. Stay with the August Senate hearing. The Capas mayor said the local government had not really been consulted, while Aeta representatives were already asking for the project to stop. When you count the institutions, also ask who could still refuse.',
   },
   {
     id: 'q3',
     question:
       'Where do Indigenous communities and local governments sit within the multilateral network?',
+    guide:
+      'Try following the story in time rather than as an org chart. Someone announces the zone. Someone else is left answering once the announcement is already public. Where do Indigenous communities and the municipality show up in that sequence, and does arriving later give them any real say?',
   },
   {
     id: 'q4',
     question:
       'What evidence would be necessary before determining whether Pax Silica increases Philippine technological sovereignty?',
+    guide:
+      'A signature on a declaration, or a projection of jobs, can sound like sovereignty. Before you decide that it is, ask a plainer question. Who chose this land, who can say no and still keep it, and who holds the decision to stop?',
   },
   {
     id: 'q5',
     question:
       'How should national economic benefits be weighed against costs or risks that may be concentrated within particular communities?',
+    guide:
+      'The national figures are still projections. The costs Aeta communities and farmers are naming are already about homes, farms, water, and the chance to stay. Hold those next to each other before you decide what should count first.',
   },
 ];
 

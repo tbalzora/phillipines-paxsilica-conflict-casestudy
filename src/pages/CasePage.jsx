@@ -234,10 +234,9 @@ export default function CasePage() {
           <SectionHeading id="enter" title="Enter the Case" />
           <div className="prose">
             <p>
-              Enter through two connected questions: how Pax Silica would organize
-              Philippine land, minerals, labor, infrastructure, and supply-chain
-              participation, and who has the power to define, consent to, contest,
-              or reshape that development.
+              Move through the case in order. Start with the technology, then the
+              conflict and the voices inside it, then the concepts and evidence that
+              help you read both.
             </p>
           </div>
           <div className="enter-case">
@@ -248,7 +247,7 @@ export default function CasePage() {
                   alt={figures.proposedSiteSeptember.alt}
                 />
                 <span className="enter-case-copy">
-                  <small>The Technology</small>
+                  <small>01 · The Technology</small>
                   <strong>Trace the infrastructure</strong>
                   <span>
                     Follow the land, minerals, manufacturing, power, water, and
@@ -275,7 +274,7 @@ export default function CasePage() {
                   alt={figures.institutionalModel.alt}
                 />
                 <span className="enter-case-copy">
-                  <small>Conflict &amp; Voices</small>
+                  <small>02 · Conflict &amp; Voices</small>
                   <strong>Center the conflict</strong>
                   <span>
                     Ask whose development vision carries authority, whose concerns
@@ -287,6 +286,33 @@ export default function CasePage() {
                 {figures.institutionalModel.credit}.{' '}
                 <a
                   href={figures.institutionalModel.source}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source
+                  <span className="visually-hidden"> (opens in a new tab)</span>
+                </a>
+              </p>
+            </article>
+            <article className="enter-case-card">
+              <Link className="enter-case-link" to="/concepts">
+                <img
+                  src={figures.corridor.src}
+                  alt={figures.corridor.alt}
+                />
+                <span className="enter-case-copy">
+                  <small>03 · Concepts &amp; Evidence</small>
+                  <strong>Read the arrangement</strong>
+                  <span>
+                    Connect the ideas and institutions behind Pax Silica, then use
+                    the source library to test what the case claims.
+                  </span>
+                </span>
+              </Link>
+              <p className="enter-case-credit">
+                {figures.corridor.credit}.{' '}
+                <a
+                  href={figures.corridor.source}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

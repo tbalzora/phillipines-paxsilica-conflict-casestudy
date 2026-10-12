@@ -1,13 +1,11 @@
 import styles from './DiscussionQuestion.module.css';
 
-export default function DiscussionQuestion({ number, question, children }) {
+export default function DiscussionQuestion({ number, question, guide }) {
   return (
-    <details className={styles.item}>
-      <summary>
-        <span className={styles.num}>Question {number}</span>
-        <span className={styles.question}>{question}</span>
-      </summary>
-      {children ? <div className={styles.panel}>{children}</div> : null}
-    </details>
+    <article className={styles.item}>
+      <p className={styles.num}>Question {number}</p>
+      <p className={styles.question}>{question}</p>
+      {guide ? <p className={styles.guide}>{guide}</p> : null}
+    </article>
   );
 }

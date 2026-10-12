@@ -1,4 +1,5 @@
 import Callout from '../components/Callout';
+import CasePath from '../components/CasePath';
 import DocumentCard from '../components/DocumentCard';
 import { TextFigure } from '../components/Figure';
 import PageHero from '../components/PageHero';
@@ -290,6 +291,11 @@ export default function ConflictPage() {
           <VideoEmbed key={video.id} video={video} />
         ))}
       </section>
+
+      <CasePath
+        back={{ to: '/technology', label: 'Back to The Technology' }}
+        next={{ to: '/concepts', label: 'Now go to Concepts & Evidence' }}
+      />
     </div>
   );
 }
