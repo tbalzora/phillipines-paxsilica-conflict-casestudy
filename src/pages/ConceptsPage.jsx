@@ -57,13 +57,14 @@ export default function ConceptsPage() {
         <SectionHeading
           id="concept-one"
           title="Concept One: Software and Hardware of the International Order"
-          eyebrow="Module 3"
+          eyebrow="Williams & Gordon-Gibson"
         />
         <div className="prose">
           <p>
-            Module 3 distinguishes between the software and hardware of the
-            international order. Use the course-assigned Module 3 reading for this
-            concept rather than substituting an outside citation.
+            Williams and Gordon-Gibson distinguish between the software and hardware of
+            the international order. This case uses their chapter &ldquo;Institutions:
+            Software and Hardware&rdquo; in <em>Conflict and Development</em> (3rd ed.,
+            2024, pp. 72–114).
           </p>
           <p>
             The software consists of theories, assumptions, and ideas about politics,
@@ -234,8 +235,8 @@ export default function ConceptsPage() {
             question={item.question}
           >
             <p>
-              Draw on Module 3, complex multilateralism, dated primary documents, and
-              the Senate hearing rather than settling the case prematurely.
+              Draw on Williams and Gordon-Gibson, complex multilateralism, dated primary
+              documents, and the Senate hearing rather than settling the case prematurely.
             </p>
           </DiscussionQuestion>
         ))}

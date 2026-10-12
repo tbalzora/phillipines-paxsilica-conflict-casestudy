@@ -253,13 +253,13 @@ export const sources = [
   },
   {
     id: 'module-3-software-hardware',
-    title: 'Module 3: Software and Hardware of the International Order',
-    author: 'Course-assigned textbook / reading',
-    date: 'Course materials',
+    title: 'Institutions: Software and Hardware',
+    author: 'A. J. Williams and A. Gordon-Gibson',
+    date: '2024',
     category: 'Theory',
     annotation:
-      'Assigned class concept distinguishing the ideas (software) and institutions (hardware) of the international order. Cite the exact Module 3 reading provided by the course; do not substitute an outside source.',
-    url: null,
+      'Chapter 2 of Conflict and Development (3rd ed., Routledge, pp. 72–114). Distinguishes the ideas (software) and institutions (hardware) of the international order. Use this assigned chapter rather than substituting an outside source.',
+    url: 'https://doi.org/10.4324/9781003353485',
   },
   {
     id: 'obrien-complex-multilateralism',
