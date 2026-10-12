@@ -39,6 +39,13 @@ export default function CasePage() {
           <TextFigure
             id="aerial"
             caption="An aerial view of developed sections of New Clark City shows roads, buildings, and the stadium complex in the broader area associated with the proposed hub."
+            below={[
+              {
+                id: 'antiPaxSilicaLaunch',
+                caption:
+                  'On August 31, 2026, people at the launch of an anti-Pax Silica group held signs reading “Shut Pax Silica Down,” “Philippines Not for Sale,” and “Reject Pax Silica.”',
+              },
+            ]}
           >
           <div className="prose">
             <p>

@@ -45,6 +45,11 @@
   box-shadow: 0 16px 36px var(--color-shadow);
 }
 
+.stack {
+  display: grid;
+  gap: var(--space-5);
+}
+
 .pair {
   display: grid;
   gap: var(--space-5);

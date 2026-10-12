@@ -39,11 +39,16 @@ export default function Figure({ id, caption, className = '' }) {
   );
 }
 
-export function TextFigure({ id, caption, flip = false, children }) {
+export function TextFigure({ id, caption, flip = false, below = [], children }) {
   return (
     <div className={styles.pair} data-flip={flip ? 'true' : 'false'}>
       <div className={styles.copy}>{children}</div>
-      <Figure id={id} caption={caption} />
+      <div className={styles.stack}>
+        <Figure id={id} caption={caption} />
+        {below.map((item) => (
+          <Figure key={item.id} id={item.id} caption={item.caption} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -39,6 +39,17 @@ export const caseImages = {
     placement: 'Homepage or infrastructure context',
   },
 
+  antiPaxSilicaLaunch: {
+    src: asset('case-study-images/anti-pax-silica-group-launch.png'),
+    alt: 'A crowd stands on red steps holding yellow and white signs that read Shut Pax Silica Down, Philippines Not for Sale, and Reject Pax Silica.',
+    caption:
+      'Participants at the launch of an anti-Pax Silica group hold signs rejecting the initiative and calling the Philippines not for sale.',
+    credit: 'ABS-CBN News',
+    source:
+      'https://www.abs-cbn.com/news/nation/2026/8/31/anti-pax-silica-group-launched-1751',
+    placement: 'Case study summary, below the New Clark City aerial',
+  },
+
   proposedSiteSeptember: {
     src: asset('case-study-images/pax-silica-proposed-site-sept-2026.jpg'),
     remoteSrc: 'https://media.philstar.com/photos/2026/09/14/1_2026-09-14_20-18-01.jpg',
