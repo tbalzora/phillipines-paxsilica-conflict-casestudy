@@ -273,6 +273,16 @@ export const sources = [
     url: 'https://www.cambridge.org/core/books/contesting-global-governance/361F7269B15A64E197D24649BF7C4F65',
   },
   {
+    id: 'aljazeera-indigenous-displacement',
+    title: 'US-backed AI hub raises indigenous displacement fears in the Philippines',
+    author: 'Al Jazeera',
+    date: '2026',
+    category: 'Multimedia',
+    annotation:
+      'Ground report with Aeta leader Petronila Muñoz and Manila protests. Centers Indigenous displacement fears, lack of prior consultation, and competing government claims about investment and jobs under Pax Silica.',
+    url: 'https://www.youtube.com/watch?v=ih7OsgFLJ4g',
+  },
+  {
     id: 'senate-hearing-aug14',
     title: 'Senate Committee on Environment, Natural Resources and Climate Change hearing on Pax Silica',
     author: 'Philippine Senate (YouTube / ANC and news coverage)',
@@ -291,6 +301,17 @@ export const sources = [
     annotation:
       'Government presentations and briefings that provide the intended development model and technology strategy side of the case.',
     url: 'https://boi.gov.ph/discussion-on-pax-silica-and-the-ai-native-industrial-acceleration-hub/',
+  },
+  {
+    id: 'pax-silica-protest-sept10',
+    title:
+      'Farmers and Indigenous Peoples protest Pax Silica industrial investment',
+    author: 'SOLID PH News / Richardson Tubo',
+    date: 'September 10, 2026',
+    category: 'Multimedia',
+    annotation:
+      'Protest footage from Grand Hyatt Manila in Taguig City. Land and environment advocates call for genuine land reform for farmers and Indigenous Peoples instead of industrial-hub investment under Pax Silica.',
+    url: 'https://www.youtube.com/watch?v=v5kca-Lhy7w',
   },
 ];
 

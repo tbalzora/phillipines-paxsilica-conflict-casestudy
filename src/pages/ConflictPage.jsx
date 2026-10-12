@@ -278,10 +278,12 @@ export default function ConflictPage() {
         <SectionHeading id="multimedia" title="Multimedia" />
         <div className="prose">
           <p>
-            The August 14, 2026 Senate inquiry is the centerpiece because learners can
-            hear institutional and community positions in one setting. Pair it with
-            BOI or BCDA presentation materials for the intended development model, then
-            ask which voices can still interrupt that model.
+            Start with the Al Jazeera report, which centers Indigenous displacement
+            fears on the ground. Pair it with the August 14, 2026 Senate inquiry,
+            BOI presentation materials for the intended development model, and protest
+            footage of farmers, Indigenous Peoples, and land and environment advocates
+            calling for genuine land reform instead of industrial-hub investment under
+            Pax Silica. Ask which voices can still interrupt that model.
           </p>
         </div>
         {videos.map((video) => (

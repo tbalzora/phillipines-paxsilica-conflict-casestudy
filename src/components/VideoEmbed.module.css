@@ -49,8 +49,7 @@
 }
 
 .why h4,
-.captionNote,
-.transcript summary {
+.transcript h4 {
   margin: var(--space-4) 0 var(--space-2);
   font-size: 0.95rem;
 }
@@ -61,21 +60,7 @@
   color: var(--color-text-muted);
 }
 
-.captionNote {
-  color: var(--color-text-muted);
-  font-size: 0.9rem;
-}
-
 .transcript {
   border-top: 1px solid var(--color-border);
   padding-top: var(--space-3);
-}
-
-.transcript summary {
-  min-height: var(--touch);
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 600;
-  margin: 0;
 }

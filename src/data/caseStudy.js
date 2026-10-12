@@ -334,6 +334,19 @@ export const discussionQuestions = [
 
 export const videos = [
   {
+    id: 'aljazeera-indigenous-displacement',
+    title: 'US-backed AI hub raises indigenous displacement fears in the Philippines',
+    source: 'Al Jazeera',
+    date: '2026',
+    whyWatch:
+      'Start here. Al Jazeera reports from the ground with Aeta leader Petronila Muñoz and from protests in Manila, placing Indigenous displacement fears at the center of the Pax Silica debate rather than beginning with the official investment story.',
+    transcriptSummary:
+      'Aeta leader Petronila Muñoz says her community received little information and no prior consultation about a large-scale technology project that could threaten their land. She asks what will happen to them and says they will not leave. The report pairs that account with Manila protests against Pax Silica, government claims of investment and jobs, and critics who argue the initiative would take land, minerals, and water from farmers and Indigenous Peoples. In Tarlac, an area designated for a manufacturing hub leaves residents in limbo over relocation and ancestral burial sites.',
+    embedUrl: 'https://www.youtube.com/embed/ih7OsgFLJ4g',
+    pageUrl: 'https://www.youtube.com/watch?v=ih7OsgFLJ4g',
+    sourceId: 'aljazeera-indigenous-displacement',
+  },
+  {
     id: 'senate-aug14',
     title: 'Senate inquiry on Pax Silica',
     source: 'Philippine Senate Committee on Environment, Natural Resources and Climate Change',
@@ -341,7 +354,7 @@ export const videos = [
     whyWatch:
       'The August Senate inquiry is especially useful because learners can hear government officials, legislators, and community representatives speaking within the same institutional setting rather than relying on a single retrospective summary. Coverage and recordings also help identify sections on the purpose of Pax Silica, land and ancestral-domain questions, resource requirements, and Indigenous-community consultation.',
     transcriptSummary:
-      'Summary for learners: officials and legislators discuss the purpose and framing of Pax Silica; Capas Mayor Roseller Rodriguez raises the absence of meaningful prior LGU consultation; questions address land, ancestral-domain claims, water and energy requirements, and community impacts; BCDA and other agencies present government positions on project scope, financing expectations, and compliance processes. This is a summary aid, not a verbatim transcript. Prefer captions on the source video when available.',
+      'Officials and legislators discuss the purpose and framing of Pax Silica. Capas Mayor Roseller Rodriguez raises the absence of meaningful prior consultation with the local government. Questions address land, ancestral-domain claims, water and energy requirements, and community impacts. BCDA and other agencies present government positions on project scope, financing expectations, and compliance processes.',
     embedUrl: 'https://www.youtube.com/embed/QH8g-6zwM94',
     pageUrl: 'https://www.youtube.com/watch?v=QH8g-6zwM94',
     sourceId: 'senate-hearing-aug14',
@@ -354,10 +367,24 @@ export const videos = [
     whyWatch:
       'BOI materials and related government briefings provide the intended development model and technology strategy side of the case, including how officials describe advanced manufacturing, supply chains, and the proposed industrial acceleration hub.',
     transcriptSummary:
-      'Summary for learners: government presentations describe Pax Silica as a framework for trusted technology supply chains and present the New Clark City proposal as an advanced-manufacturing and industrial-acceleration ecosystem. Treat promotional claims as government position statements and projections, not completed outcomes. Prefer original BOI video captions where available.',
+      'Government presentations describe Pax Silica as a framework for trusted technology supply chains and present the New Clark City proposal as an advanced-manufacturing and industrial-acceleration ecosystem. These claims are government position statements and projections, not completed outcomes.',
     embedUrl: 'https://www.youtube-nocookie.com/embed/k0Uf7YIrFnk?start=2',
     pageUrl: 'https://www.youtube.com/watch?v=k0Uf7YIrFnk&t=2s',
     sourceId: 'boi-videos',
+  },
+  {
+    id: 'pax-silica-protest-sept10',
+    title:
+      'Farmers and Indigenous Peoples protest Pax Silica industrial investment',
+    source: 'SOLID PH News / Richardson Tubo',
+    date: 'September 10, 2026',
+    whyWatch:
+      'This clip shows people protesting. Land and environment advocates, including farmers and Indigenous Peoples, gathered at Grand Hyatt Manila in Taguig City to reject industrial-hub investment under Pax Silica and to call for genuine land reform instead.',
+    transcriptSummary:
+      'Advocates protest at Grand Hyatt Manila on September 10, 2026. They call for genuine land reform for farmers and Indigenous Peoples rather than investment in industrial hubs under the Pax Silica initiative.',
+    embedUrl: 'https://www.youtube.com/embed/v5kca-Lhy7w',
+    pageUrl: 'https://www.youtube.com/watch?v=v5kca-Lhy7w',
+    sourceId: 'pax-silica-protest-sept10',
   },
 ];
 

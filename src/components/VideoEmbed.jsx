@@ -38,15 +38,10 @@ export default function VideoEmbed({ video }) {
         <p>{video.whyWatch}</p>
       </div>
 
-      <p className={styles.captionNote}>
-        Space for captions: use the player caption controls when available. A written
-        summary is provided below for accessibility and study use.
-      </p>
-
-      <details className={styles.transcript}>
-        <summary>Transcript / summary</summary>
+      <div className={styles.transcript}>
+        <h4>Summary</h4>
         <p>{video.transcriptSummary}</p>
-      </details>
+      </div>
     </section>
   );
 }
