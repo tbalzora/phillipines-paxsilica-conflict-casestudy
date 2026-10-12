@@ -33,6 +33,15 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Prepare GitHub Pages files
+        run: |
+          if grep -F 'src="/src/main.jsx"' dist/index.html; then
+            echo "Production build did not rewrite index.html; refusing to publish the Vite source page." >&2
+            exit 1
+          fi
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
