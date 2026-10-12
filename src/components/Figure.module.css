@@ -1,0 +1,87 @@
+.figure {
+  margin: 0;
+}
+
+.cover,
+.contain {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius);
+  background: var(--color-surface-muted);
+  box-shadow: 0 10px 26px var(--color-shadow);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+  padding: 0.65rem;
+}
+
+.figure figcaption p {
+  margin: 0.6rem 0 0;
+  text-align: left;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.credit {
+  font-size: 0.75rem;
+}
+
+.credit a {
+  font-weight: 650;
+}
+
+.figure:hover .cover,
+.figure:hover .contain {
+  transform: scale(1.012);
+  box-shadow: 0 16px 36px var(--color-shadow);
+}
+
+.pair {
+  display: grid;
+  gap: var(--space-5);
+  align-items: start;
+  margin-top: var(--space-4);
+  text-align: left;
+}
+
+.copy :global(.prose) {
+  max-width: none;
+  margin-inline: 0;
+}
+
+@media (min-width: 860px) {
+  .pair {
+    grid-template-columns: minmax(0, 1.2fr) minmax(15rem, 0.9fr);
+    gap: var(--space-6);
+    align-items: start;
+  }
+
+  .pair[data-flip='true'] {
+    grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.2fr);
+  }
+
+  .pair[data-flip='true'] .copy {
+    order: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover,
+  .contain {
+    transition: none;
+  }
+
+  .figure:hover .cover,
+  .figure:hover .contain {
+    transform: none;
+  }
+}

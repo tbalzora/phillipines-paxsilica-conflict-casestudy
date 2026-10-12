@@ -1,0 +1,72 @@
+.list {
+  list-style: none;
+  margin: var(--space-5) auto 0;
+  padding: 0;
+  max-width: 62rem;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-5);
+  padding: var(--space-5) var(--space-4);
+  font-size: 1.06rem;
+  line-height: 1.55;
+  border-left: 3px solid transparent;
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    padding-left 0.18s ease;
+}
+
+.item:hover {
+  padding-left: var(--space-5);
+  border-left-color: var(--color-accent);
+  background: var(--color-surface);
+}
+
+.marker {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-accent-strong);
+}
+
+.marker svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.marker span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-red);
+}
+
+.item p {
+  margin: 0;
+}
+
+.item + .item {
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 560px) {
+  .item {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+    padding-inline: var(--space-2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item {
+    transition: none;
+  }
+}

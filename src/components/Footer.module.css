@@ -1,0 +1,35 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  margin-top: auto;
+}
+
+.inner {
+  width: min(100% - 2.5rem, var(--page-max));
+  margin-inline: auto;
+  padding-block: var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+.inner p {
+  margin: 0;
+}
+
+.updated {
+  flex: 0 0 auto;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 720px) {
+  .inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+}

@@ -1,0 +1,42 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch);
+  height: var(--touch);
+  min-width: var(--touch);
+  min-height: var(--touch);
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 0.35rem;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  transition:
+    color 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease,
+    transform 0.18s ease;
+}
+
+.toggle:hover {
+  border-color: var(--color-accent);
+  background: var(--color-surface-muted);
+  color: var(--color-accent-strong);
+}
+
+.icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toggle {
+    transition: none;
+  }
+
+  .toggle:hover {
+    transform: none;
+  }
+}

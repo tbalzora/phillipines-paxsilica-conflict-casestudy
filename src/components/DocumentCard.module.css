@@ -1,0 +1,46 @@
+.card {
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  height: 100%;
+  box-shadow: 0 6px 18px transparent;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent-strong);
+  box-shadow: 0 12px 28px var(--color-shadow);
+}
+
+.title {
+  margin: 0 0 var(--space-2);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.meta {
+  margin: 0 0 var(--space-3);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.annotation {
+  margin: 0 0 var(--space-3);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: border-color 0.2s ease;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}

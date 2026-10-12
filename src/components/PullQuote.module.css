@@ -1,0 +1,21 @@
+.quote {
+  margin: var(--space-6) 0;
+  padding: 0;
+  max-width: var(--measure);
+  border: none;
+}
+
+.quote p {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+.quote footer {
+  margin-top: var(--space-3);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: normal;
+}
